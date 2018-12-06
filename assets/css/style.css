@@ -1,33 +1,75 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url("dustscratches.png");
-    background: violet;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 150%;
     font-size: 18 px;
 }
 
+.bg {
+    background-image: url("../../assets/images/swirl_pattern.png");
+    background-repeat: repeat-x repeat-y;
+}
+
 header {
     background: #ffffff;
     border-style: solid;
-    border-width: 0px 0 2px 0;
+    border-width: 0px 0 4px 0;
     border-color: #cccccc;
 }
 
 .flag {
     background: #4aaaa5;
     color: #ffffff;
-    width: 300px;
+    width: 305px;
     position: relative;
-    left: 390px;
-    padding: 30px 0px;
-    text-align: center;
+    left: 480px;
     float: left;
 }
 
 .menu {
     float: right;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 30px;
+    margin-right: 480px;
+  }
+
+li {
+    display: inline;
+    color: #cccccc
+}
+
+ a:link, a:visited {
+     text-decoration: none;
+     color: #777777;
+ }
+
+ a:hover, a:active {
+    color: #4aaaa5;
+ }
+
+#link_1 {
+    padding-right: 18px;
+    border-style: solid;
+    border-width: 0px 1px 0px 0px;
+    border-color: #cccccc;
+    text-decoration: none;
+}
+
+#link_2 {
+    padding-right: 18px;
+    padding-left: 15px;
+    border-style: solid;
+    border-width: 0px 1px 0px 0px;
+    border-color: #cccccc;
+}
+
+#link_3 {
+    padding-left: 15px;
 }
 
 h1, h2, h3 {
@@ -36,10 +78,15 @@ h1, h2, h3 {
 
 h1 {
     font-size: 28px;
+    font-weight: bold;
+    padding: 30px 30px;
 }
 
 h2 {
-    font-size: 24px;
+    font-size: 28px;
+    color: #4aaaa5;
+    font-weight: bold;
+    padding: 30px 30px;
 }
 
 h3 {
@@ -56,12 +103,26 @@ section {
     background: #ffffff;
 }
 
+#about {
+    margin-top: 100px;
+    margin-bottom: 353px;
+}
+
+#portfolio {
+    margin-top: 100px;
+}
+
+#contact {
+    margin-top: 100px;
+}
+
 #headshot {
     width: 15%;
     height: 15%;
     float: left;
-    margin-right: 10px;
     vertical-align: text-top;
+    padding-right: 20px;
+    padding-bottom: 5px;
 }
 
 footer {
@@ -73,5 +134,11 @@ footer {
     color: #ffffff;
     font-size: 8pt;
     padding-top: 30px;
+}
 
+article {
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    text-align: justify;
 }
