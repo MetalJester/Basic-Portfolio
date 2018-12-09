@@ -198,3 +198,18 @@ form, .image_link {
 #message {
     height: 200px;
 }
+
+#button {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    padding: 8px 13px;
+    margin-bottom: 20px;
+}
+
+#button:hover {
+    cursor: pointer;
+
+}
