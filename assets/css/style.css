@@ -6,6 +6,8 @@ body {
     line-height: 200%;
     font-size: 18 px;
     color: #777777;
+    position: relative;
+    min-height: 1200px;
 }
 
 .bg {
@@ -18,14 +20,21 @@ header {
     border-style: solid;
     border-width: 0px 0 4px 0;
     border-color: #cccccc;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-bottom: 100px;
+    z-index: 500;
 }
+
+#heading {
+    width: 960px;
+    margin: auto;}
 
 .flag {
     background: #4aaaa5;
     color: #ffffff;
     width: 305px;
-    position: relative;
-    left: 480px;
     float: left;
 }
 
@@ -37,8 +46,7 @@ ul {
     list-style-type: none;
     margin: 0;
     padding-top: 30px;
-    margin-right: 480px;
-  }
+}
 
 li {
     display: inline;
@@ -127,6 +135,8 @@ section {
     width: 960px;
     margin: auto;
     background: #ffffff;
+    position: relative;
+    top: 100px;
 }
 
 #about, #portfolio, #contact {
